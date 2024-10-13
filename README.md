@@ -30,3 +30,23 @@ Kubernetes is hosted by the Cloud Native Computing Foundation (CNCF).
 8. Multi-Cloud and Hybrid Deployments: Kubernetes can run on different environments, including public clouds (like AWS, Google Cloud, Azure), on-premise data centers, and hybrid cloud setups.
 
 
+## NODE
+A node in Kubernetes is a physical or virtual machine that is part of a Kubernetes cluster. It provides the computational resources necessary to run Pods, which are the smallest deployable units in Kubernetes
+#### SINGLE NODE
+A single-node Kubernetes cluster is a setup where both the control plane (master) and worker components run on the same machine. It is typically used for development or testing purposes.
+#### MULTINODE
+A multi-node Kubernetes cluster consists of multiple machines (nodes), where one or more serve as control plane nodes (masters) to manage the cluster, and the rest as worker nodes to run application workloads. This setup improves scalability, fault tolerance, and high availability.
+
+# MINIKUBE
+Minikube is a tool that allows you to set up a single-node Kubernetes cluster on your local computer. It is a great way to experiment with Kubernetes before deploying it in production. Minikube is easy to install and use, and it supports all major operating systems.
+
+## How does Minikube work?
+ Minikube creates a single-node Kubernetes cluster on your local computer. This cluster includes all of the components that are needed to run Kubernetes, such as the API server, the controller manager, and the scheduler. Minikube also includes a Kubernetes client, which you can use to interact with the cluster.
+ ### Why use Minikube?
+ 
+There are many reasons to use Minikube. Here are a few:
+ 
+ 
+Experiment with Kubernetes: Minikube is a great way to experiment with Kubernetes before deploying it in production. You can use Minikube to learn how to deploy and manage applications in Kubernetes.
+ Develop Kubernetes applications: Minikube can be used to develop Kubernetes applications. You can use Minikube to test your applications before deploying them to production.
+ Troubleshoot Kubernetes problems: Minikube can be used to troubleshoot Kubernetes problems. You can use Minikube to isolate problems and test fixes.
